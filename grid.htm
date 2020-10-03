@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurukul</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .main-div .courses-div {
+        width: 300px;
+        height: 400px;
+
+        margin: auto;
+      }
+      .main-div {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-column-gap: 100px;
+        grid-row-gap: 100px;
+      }
+
+      .courses-div {
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .courses-div:hover {
+        border: 2px orange solid;
+        width: 290;
+        height: 390;
+      }
+      .cimage {
+        margin-left: 40px;
+      }
+      .image {
+        width: 300px;
+        height: 225px;
+      }
+      p {
+        font-family: "Fira Sans", sans-serif;
+        padding: 5px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .main-div {
+          width: 70%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 300px;
+          grid-column-gap: 0px;
+          grid-row-gap: 50px;
+        }
+        .courses-div {
+          border-radius: 10px;
+          overflow: hidden;
+          border: 2px #eebd01 groove;
+        }
+        .courses-div:hover {
+          border: 2px orange solid;
+          width: 290;
+          height: 390;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header></header>
+    <nav></nav>
+    <div class="main-div">
+      <div class="courses-div" id="courses1">
+        <div class="img-div">
+          <img id="pimage" class="image" src="pyhon3.png" alt="" />
+          <p>Master in python Build 10 real word project</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Pushpak Kumar</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses2">
+        <div class="img-div">
+          <img class="image" src="react2.jpg" alt="" />
+          <p>React Zero to Hero</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Nithin</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses3">
+        <div class="img-div">
+          <img class="cimage" src="3c++.png" alt="" />
+          <p>Complete C++ bootcamp learn C++ by buliding project</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Jhon slimga</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses4">
+        <div class="img-div">
+          <img class="cimage" src="chash.png" alt="" />
+          <p>C# Form Scratch to Pro</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- jhon bob</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses5">
+        <div class="img-div">
+          <img class="image" src="Java.jpg" alt="" />
+          <p>The Unlimited Java course</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Mosh hamedhane</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses6">
+        <div class="img-div">
+          <img class="image" src="node2.webp" alt="" />
+          <p>Backend Web Development with Node</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Carry minti</p>
+        </div>
+      </div>
+      <div class="courses-div" id="courses7">
+        <div class="img-div">
+          <img class="image" src="web development.jfif" alt="" />
+          <p>Web Development bootcamp</p>
+          <div class="explintion-div">
+            <span class="stars-inactive" style="color: #eebd01">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+          </div>
+          <p>by :- Angale yu</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
